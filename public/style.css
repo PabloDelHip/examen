@@ -1,0 +1,47 @@
+body {
+    background-color: #F5F5F5 !important;
+}
+
+.titulo-customer {
+    background-color: #039be5;
+    -webkit-box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 5px -5px rgba(0, 0, 0, 0.75);
+    height: 200px;
+}
+
+.titulo-customer i,
+.titulo-customer span {
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.tabla-orders,
+.contenedor-pagar div {
+    background-color: #fff;
+    margin-top: -62px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contenedor-pagar div {
+    margin-left: 21px;
+    position: fixed;
+}
+
+.contenedor-pagar span {
+    font-size: 1.3em;
+}
+
+
+/* Transicion de VUE */
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}

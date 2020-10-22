@@ -1,0 +1,20 @@
+La aplicacion esta echa en Vue JS
+
+/**************/
+
+solo se utilizaron dos funciones de la API,
+Listar todas las ordenes
+Listar detalle de una orden en especifico.
+
+no se agregaron productos a las ordenes con las que se cuentan en la API pues no se puede
+se lo comente a la señorita la cual me estaba atendiendo via Correo electronico y me dijo que solo notifique 
+que el metodo PUT no funciona.
+La informacion que se hace en la consulta cuando es nueva o cuando se agrega un producto a la orden, la estoy guardando
+en el LocaleStorage.
+
+
+/¨************/
+
+Instalacion.
+-npm install
+-npm run serve
